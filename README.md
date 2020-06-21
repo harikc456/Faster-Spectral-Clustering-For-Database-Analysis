@@ -10,7 +10,7 @@ In case of sharding a database it is important to know the degree of imporantanc
 
 A Spectral Custering with Ng-Jordan-Weiss Algorithm and Linear Time k-Means Clustering is implemented to cluster the database based on the centraility.
 
-The ideas implemented on the above codes from the paper
+The ideas implemented this project is from the below papers
 
 * Laplacian centrality: A new centrality measure for weighted networks
   - https://www.sciencedirect.com/science/article/pii/S0020025511006761
