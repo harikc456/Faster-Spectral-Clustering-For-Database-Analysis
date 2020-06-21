@@ -1,0 +1,11 @@
+foreign_keys = {}
+foreign_keys['post-users'] = {'post':'user_id','users':'uid'}
+foreign_keys['post-comment'] = {'post':'id','comment':'post_id'}
+foreign_keys['post-likes'] = {'post':'id','likes':'post_id'}
+foreign_keys['post-categories'] = {'post':'category_id','categories':'id'}
+foreign_keys['users-followers'] = {'users':'uid','followers':'following'}
+foreign_keys['users-comment'] = {'users':'uid','comment':'user_id'}
+foreign_keys['users-likes'] = {'users':'uid','likes':'user_id'}
+foreign_keys['users-bookmarks'] = {'users':'uid','bookmarks':'user_id'}
+foreign_keys['users-user_uploads'] = {'users':'uid','user_uploads':'uid'}
+foreign_keys['followers-categories'] = {'followers':'following','categories':'id'}  
